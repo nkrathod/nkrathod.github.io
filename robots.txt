@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
-Sitemap: https://nkrathod.github.io/portfolio/sitemap.xml
+Sitemap: https://nkrathod.github.io/sitemap.xml
