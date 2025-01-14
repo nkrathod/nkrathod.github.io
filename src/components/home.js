@@ -5,7 +5,7 @@ function HomeComponent() {
   return (
     <div className="header-text">
       <p>
-        ME<span>R</span>N Stack Developer
+        ME<span className="bounce-rotate">R</span>N Stack Developer
       </p>
       <h1>
         Hi, I'm <span>Nitesh</span>
