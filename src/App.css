@@ -92,6 +92,9 @@ nav ul li a:hover::after {
 .about-col-2 {
   flex-basis: 55%;
 }
+.my-name {
+  color: #b54769;
+}
 .sub-title {
   font-size: 40px;
   font-weight: 600;

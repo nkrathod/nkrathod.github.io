@@ -3,6 +3,10 @@ import ProfilePic from "../assets/ProfilePic.JPG";
 
 function AboutComponent() {
   const [content, setContent] = useState("skills");
+  const startYear = 2019;
+
+  const currentYear = new Date().getFullYear();
+  const yearsOfExperience = currentYear - startYear;
 
   let tabLinks = document.getElementsByClassName("tab-links");
   const openTab = (event, tabName) => {
@@ -11,7 +15,7 @@ function AboutComponent() {
     }
     event.currentTarget.classList.add("active-links");
     setContent(tabName);
-  }
+  };
 
   return (
     <div id="about">
@@ -20,17 +24,24 @@ function AboutComponent() {
           <div className="about-col-1">
             <img src={ProfilePic} alt="Nitesh Rathod" />
             {/* <img src="assets/sitbg1.png" alt="Nitesh Rathod"> */}
+            {/* <h1 className="sub-title">
+              Technical <span>Skills</span>
+            </h1>
+            <p>React, Redux, JavaScript, TypeScript, Node.js,
+            Express.js, MongoDB, Material-UI, Bootstrap, Git, and AWS.</p> */}
           </div>
           <div className="about-col-2">
             <h1 className="sub-title">
               About <span>Me</span>
             </h1>
             <p>
-              I am Nitesh Rathod. I have 4+ years of experience in Web
-              development using React, Redux, JavaScript, TypeScript, Node JS,
-              Express JS, MongoDB, Material UI, Bootstrap, Git and AWS. I have
-              worked in different domains such as Retail, Ecommerce, EdTech,
-              Social and Insurance.
+              I am <span className="my-name">Nitesh Rathod</span>, a passionate web developer with over {yearsOfExperience}+ years
+              of experience building robust and scalable applications. My
+              expertise includes React, Redux, JavaScript, TypeScript, Node.js,
+              Express.js, MongoDB, Material-UI, Bootstrap, Git, and AWS. I have
+              successfully contributed to diverse domains such as Retail,
+              E-commerce, EdTech, Social, and Insurance, delivering innovative
+              solutions tailored to business needs.
             </p>
             <div className="tab-titles">
               <p
@@ -57,37 +68,40 @@ function AboutComponent() {
                       <b>React</b>
                     </span>
                     <br />
-                    Developed web application using React JS
+                    Proficient in developing dynamic and responsive web
+                    applications using React.js.
                   </li>
                   <li>
                     <span>
                       <b>Redux</b>
                     </span>
                     <br />
-                    JavaScript library for managing and centralizing application
-                    state.
+                    Experienced in managing and centralizing application state
+                    using the Redux.
                   </li>
                   <li>
                     <span>
                       <b>JavaScript</b>
                     </span>
                     <br />
-                    Developed web application
+                    Skilled in developing web applications with a focus on clean
+                    and efficient code.
                   </li>
                   <li>
                     <span>
                       <b>Node</b>
                     </span>
                     <br />
-                    Building Restful APIs using Node js, Express js and AWS API
-                    Gateway.
+                    Expertise in building RESTful APIs using Node.js,
+                    Express.js, and AWS API Gateway.
                   </li>
                   <li>
                     <span>
                       <b>AWS</b>
                     </span>
                     <br />
-                    Developed serverless application using Node and AWS Lambda.
+                    Developed scalable serverless applications leveraging
+                    Node.js and AWS Lambda.
                   </li>
                 </ul>
               </div>
