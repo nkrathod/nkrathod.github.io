@@ -343,11 +343,11 @@ form textarea {
   border: 0;
   outline: none;
   background: #262626;
-  padding: 15px;
-  margin: 15px 0;
+  padding: 10px;
+  margin: 10px 0;
   color: #fff;
   font-size: 18px;
-  border-radius: 6px;
+  border-radius: 5px;
 }
 form .btn2 {
   padding: 14px 60px;
