@@ -11,12 +11,14 @@ function NavbarComponent() {
 
   useEffect(() => {
     sidemenu = document.getElementById("sidemenu");
-  }, [])
+  }, []);
 
   return (
     <nav>
       <h1 className="logo">
-        <span style={{ color: "#ff004f" }}>Port</span>folio
+        <a href="/" className="logo">
+          <span style={{ color: "#ff004f" }}>Port</span>folio
+        </a>
       </h1>
       <ul id="sidemenu">
         <li>

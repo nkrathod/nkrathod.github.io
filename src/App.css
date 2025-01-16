@@ -29,6 +29,8 @@ nav {
 .logo {
   width: 140px;
   display: inline-block;
+  text-decoration: none;
+  color: #fff;
 }
 nav ul li {
   display: inline-block;

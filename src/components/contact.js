@@ -125,6 +125,7 @@ function ContactComponent() {
             </button> */}
           </div>
           <div className="contact-rigth">
+            <p>Get in touch with me.</p>
             <form name="submit-to-google-sheet">
               <input
                 type="text"
@@ -154,7 +155,7 @@ function ContactComponent() {
                 onClick={handleSubmit}
                 className="more-btn btn2"
               >
-                {isLoading ? 'Loading ...' : 'Submit'}
+                {isLoading ? 'Sending ...' : 'Submit'}
               </button>
             </form>
           </div>
