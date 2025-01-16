@@ -75,7 +75,7 @@ function ServicesComponenet() {
         />
         <meta
           name="keywords"
-          content="Nitesh Rathod, nkrathod, Services, GitHub, GitHub Pages, Portfolio, Freelancer, Freelancing"
+          content="Nitesh Rathod, Services, GitHub, Freelancer, Freelancing, Mobile App, Web Application, Portfolio Website, E-commerce Website"
         />
       </Helmet>
       <div className="container">
