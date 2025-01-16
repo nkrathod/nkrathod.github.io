@@ -24,8 +24,9 @@ function AboutComponent() {
         {/* <title>About Me | Nitesh Rathod</title> */}
         <meta
           name="description"
-          content="Explore my projects about me section, showcasing skills in React, Node.js, and more."
+          content="Explore my about me section, showcasing skills in React, Node.js, and more."
         />
+        <meta name="keywords" content="Nitesh Rathod, NKRathod, About Me, Skills, React, Experience, SEO, JavaScript" />
       </Helmet>
       <div className="container">
         <div className="row">

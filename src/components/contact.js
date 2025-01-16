@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import ResumePDF from "../assets/Nitesh_Software_Dev.pdf";
 import Loader from "./loader";
 
@@ -47,6 +48,14 @@ function ContactComponent() {
 
   return (
     <div id="contact">
+      <Helmet>
+        <title>Nitesh Rathod | Software Developer</title>
+        <meta
+          name="description"
+          content="Explore my contact me section, Get in touch with me."
+        />
+        <meta name="keywords" content="Nitesh Rathod, NKRathod, Contact me, Portfolio, Nitesh Rathod Portfolio, Nitesh Rathod Website, SEO, JavaScript" />
+      </Helmet>
       <div className="container">
         <div className="row">
           <div className="contact-left">

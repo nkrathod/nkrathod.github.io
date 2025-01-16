@@ -57,6 +57,7 @@ function ProjectComponent() {
           name="description"
           content="Explore my projects in web development, showcasing skills in React, Node.js, and more."
         />
+        <meta name="keywords" content="Nitesh Rathod, nkrathod, GitHub Pages, Projects, Portfolio, Affiliate Marketing Web app, Lets Eduvate App, Always On Learning" />
       </Helmet>
 
       <div className="container">

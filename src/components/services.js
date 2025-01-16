@@ -1,5 +1,7 @@
 import React from "react";
 import { Modal } from "./modal";
+import { Helmet } from "react-helmet";
+
 const servicesList = [
   {
     id: "1",
@@ -65,6 +67,17 @@ function ServicesComponenet() {
   };
   return (
     <div id="services">
+      <Helmet>
+        <title>Nitesh Rathod | Software Developer</title>
+        <meta
+          name="description"
+          content="Explore my projects in web development, showcasing skills in React, Node.js, and more."
+        />
+        <meta
+          name="keywords"
+          content="Nitesh Rathod, nkrathod, Services, GitHub, GitHub Pages, Portfolio, Freelancer, Freelancing"
+        />
+      </Helmet>
       <div className="container">
         <h1 className="sub-title">
           My <span>Services</span>
