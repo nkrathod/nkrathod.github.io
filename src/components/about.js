@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import ProfilePic from "../assets/ProfilePic.JPG";
 
 function AboutComponent() {
@@ -19,10 +20,17 @@ function AboutComponent() {
 
   return (
     <div id="about">
+      <Helmet>
+        {/* <title>About Me | Nitesh Rathod</title> */}
+        <meta
+          name="description"
+          content="Explore my projects about me section, showcasing skills in React, Node.js, and more."
+        />
+      </Helmet>
       <div className="container">
         <div className="row">
           <div className="about-col-1">
-            <img src={ProfilePic} alt="Nitesh Rathod" />
+            <img src={ProfilePic} alt="Nitesh Rathod, Software Developer" />
             {/* <img src="assets/sitbg1.png" alt="Nitesh Rathod"> */}
             {/* <h1 className="sub-title">
               Technical <span>Skills</span>

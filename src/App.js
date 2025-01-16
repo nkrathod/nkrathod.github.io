@@ -7,6 +7,7 @@ import { Project } from "./components/project";
 import "./App.css";
 import { Contact } from "./components/contact";
 import { Modal } from "./components/modal";
+import { LandingPage } from "./components/landingPage";
 
 function App() {
   
@@ -16,7 +17,7 @@ function App() {
       <div id="header">
         <div className="container">
           <Navbar />
-          <Home />
+          <LandingPage />
         </div>
       </div>
       <i className="fa-solid fa-circle-up" onClick={() => window.location.href = '#'}></i>

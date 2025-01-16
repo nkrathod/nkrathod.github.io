@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import ResumePDF from "../assets/Nitesh_Software_Dev.pdf";
 
-function HomeComponent() {
+function LandingPageComponent() {
   return (
     <div className="header-text">
       <Helmet>
@@ -38,4 +38,4 @@ function HomeComponent() {
   );
 }
 
-export const Home = React.memo(HomeComponent);
+export const LandingPage = React.memo(LandingPageComponent);

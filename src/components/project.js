@@ -4,6 +4,7 @@ import WealthyAffiliateImg from "../assets/WealthyAffiliate.webp";
 import aolImg from "../assets/aol.webp";
 import letseduvateImg from "../assets/letseduvate.png";
 import sparkleboxImg from "../assets/sparklebox.jpg";
+import { Helmet } from "react-helmet";
 
 const myProject = [
   {
@@ -50,6 +51,14 @@ function ProjectComponent() {
 
   return (
     <div id="project">
+      <Helmet>
+        {/* <title>Projects | Nitesh Rathod</title> */}
+        <meta
+          name="description"
+          content="Explore my projects in web development, showcasing skills in React, Node.js, and more."
+        />
+      </Helmet>
+
       <div className="container">
         <h1 className="sub-title" style={{ marginBottom: "20px" }}>
           My <span>Project</span>
