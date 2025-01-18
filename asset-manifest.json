@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.5944df1d.css",
-    "main.js": "/static/js/main.93e35d68.js",
+    "main.css": "/static/css/main.7d9a282d.css",
+    "main.js": "/static/js/main.2a7de5a6.js",
     "static/js/453.6e114820.chunk.js": "/static/js/453.6e114820.chunk.js",
     "static/media/nkrMobile.png": "/static/media/nkrMobile.7be6742a3dff4d9d65e6.png",
     "static/media/sitbg1.png": "/static/media/sitbg1.4587e4cf44c3bb4ff321.png",
-    "static/media/Nitesh_Software_Dev.pdf": "/static/media/Nitesh_Software_Dev.4dfd6a3640b4202c97dc.pdf",
+    "static/media/Nitesh_Software_Dev.pdf": "/static/media/Nitesh_Software_Dev.d98abd1136db0f274247.pdf",
     "static/media/letseduvate.png": "/static/media/letseduvate.9765f40d7bd397bdb673.png",
     "static/media/ProfilePic.JPG": "/static/media/ProfilePic.418f5e0d68d060715724.JPG",
     "static/media/WealthyAffiliate.webp": "/static/media/WealthyAffiliate.262bfc08993e87dea515.webp",
@@ -13,12 +13,12 @@
     "static/media/icon.png": "/static/media/icon.44da1929d2da3a52b8d9.png",
     "static/media/aol.webp": "/static/media/aol.332e09d51a5267764841.webp",
     "index.html": "/index.html",
-    "main.5944df1d.css.map": "/static/css/main.5944df1d.css.map",
-    "main.93e35d68.js.map": "/static/js/main.93e35d68.js.map",
+    "main.7d9a282d.css.map": "/static/css/main.7d9a282d.css.map",
+    "main.2a7de5a6.js.map": "/static/js/main.2a7de5a6.js.map",
     "453.6e114820.chunk.js.map": "/static/js/453.6e114820.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5944df1d.css",
-    "static/js/main.93e35d68.js"
+    "static/css/main.7d9a282d.css",
+    "static/js/main.2a7de5a6.js"
   ]
 }
