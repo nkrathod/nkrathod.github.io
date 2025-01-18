@@ -1,39 +1,32 @@
 import React from "react";
-import { Helmet } from "react-helmet";
-import ResumePDF from "../assets/Nitesh_Software_Dev.pdf";
+// import { Helmet } from "react-helmet";
+// import { Navbar } from "./navbar";
+import { LandingPage } from "./landingPage";
+import { About } from "./about";
+import { Services } from "./services";
+import { Project } from "./project";
+import { Contact } from "./contact";
 
 function HomeComponent() {
   return (
-    <div className="header-text">
-      <Helmet>
-        <title>Nitesh Rathod | Software Developer</title>
-        <meta
-          name="description"
-          content="Portfolio of Nitesh Rathod, a web developer specializing in React, Redux, Node.js, and AWS."
-        />
-        <meta
-          name="keywords"
-          content="Nitesh Rathod,Software Developer, Software Engineer, Web Developer, React, Portfolio, JavaScript"
-        />
-        <meta name="author" content="Nitesh Rathod" />
-      </Helmet>
-      <p>
-        ME<span className="bounce-rotate">R</span>N Stack Developer
-      </p>
-      <h1>
-        Hi, I'm <span>Nitesh</span>
-        <br />
-        Rathod From Pune, <span>India</span>
-      </h1>
-      <a
-        href={ResumePDF}
-        rel="noreferrer"
-        target="_blank"
-        download
-        className="more-btn btn2"
-      >
-        Download CV <i className="fa-solid fa-cloud-arrow-down"></i>
-      </a>
+    <div>
+      {/* header */}
+      <div id="header">
+        <div className="container">
+          {/* <Navbar /> */}
+          <LandingPage />
+        </div>
+      </div>
+      <i className="fa-solid fa-circle-up" onClick={() => window.location.href = '#'}></i>
+      <i className="fa-regular fa-circle-up" onClick={() => window.location.href = '#'}></i>
+      {/* about */}
+      <About />
+      {/* services */}
+      <Services />
+      {/* project */}
+      <Project />
+      {/* contact */}
+      <Contact />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./loader.css";
-import nIcon from "../assets/icon.png"
+import nIcon from "../../assets/icon.png"
 
 const Loader = () => {
   return (

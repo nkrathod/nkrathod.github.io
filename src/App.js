@@ -1,36 +1,24 @@
 import React from "react";
 import { Navbar } from "./components/navbar";
 import { Home } from "./components/home";
-import { About } from "./components/about";
-import { Services } from "./components/services";
-import { Project } from "./components/project";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BlogPage } from "./components/blogs/blogPage";
+import NotFound from "./components/NotFound";
 import "./App.css";
-import { Contact } from "./components/contact";
-import { Modal } from "./components/modal";
-import { LandingPage } from "./components/landingPage";
+
 
 function App() {
-  
   return (
-    <div>
-      {/* header */}
-      <div id="header">
-        <div className="container">
-          <Navbar />
-          <LandingPage />
-        </div>
+    <Router>
+      <div className="container">
+        <Navbar />
       </div>
-      <i className="fa-solid fa-circle-up" onClick={() => window.location.href = '#'}></i>
-      <i className="fa-regular fa-circle-up" onClick={() => window.location.href = '#'}></i>
-      {/* about */}
-      <About />
-      {/* services */}
-      <Services />
-      {/* project */}
-      <Project />
-      {/* contact */}
-      <Contact />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blogs" element={<BlogPage />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   );
 }
 

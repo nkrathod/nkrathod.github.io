@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 import ResumePDF from "../assets/Nitesh_Software_Dev.pdf";
-import Loader from "./loader";
+import Loader from "./loader/loader";
 
 function ContactComponent() {
   const [resMsg, setResMsg] = useState("");
