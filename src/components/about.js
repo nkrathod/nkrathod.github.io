@@ -21,12 +21,17 @@ function AboutComponent() {
   return (
     <div id="about">
       <Helmet>
-        {/* <title>About Me | Nitesh Rathod</title> */}
+        <title>About Me | Nitesh Rathod - Web Developer and Freelancer</title>
         <meta
           name="description"
-          content="Explore my about me section, showcasing skills in React, Node.js, and more."
+          content="Learn about Nitesh Rathod, a skilled web developer with expertise in React, Node.js, JavaScript, and AWS. Discover my professional journey and skills."
         />
-        <meta name="keywords" content="Nitesh Rathod, NKRathod, About Me, Skills, React, Experience, SEO, JavaScript" />
+        <meta
+          name="keywords"
+          content="Nitesh Rathod, About Nitesh Rathod, Web Developer, Freelancer, React, Node.js, JavaScript, AWS, Portfolio, Experience, Skills"
+        />
+        <meta name="author" content="Nitesh Rathod" />
+        <meta name="robots" content="index, follow" />
       </Helmet>
       <div className="container">
         <div className="row">
@@ -44,13 +49,14 @@ function AboutComponent() {
               About <span>Me</span>
             </h1>
             <p>
-              I am <span className="my-name">Nitesh Rathod</span>, a passionate web developer with over {yearsOfExperience}+ years
-              of experience building robust and scalable applications. My
-              expertise includes React, Redux, JavaScript, TypeScript, Node.js,
-              Express.js, MongoDB, Material-UI, Bootstrap, Git, and AWS. I have
-              successfully contributed to diverse domains such as Retail,
-              E-commerce, EdTech, Social, and Insurance, delivering innovative
-              solutions tailored to business needs.
+              I am <span className="my-name">Nitesh Rathod</span>, a passionate
+              web developer with over {yearsOfExperience}+ years of experience
+              building robust and scalable applications. My expertise includes
+              React, Redux, JavaScript, TypeScript, Node.js, Express.js,
+              MongoDB, Material-UI, Bootstrap, Git, and AWS. I have successfully
+              contributed to diverse domains such as Retail, E-commerce, EdTech,
+              Social, and Insurance, delivering innovative solutions tailored to
+              business needs.
             </p>
             <div className="tab-titles">
               <p
