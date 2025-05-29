@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import ResumePDF from "../assets/Nitesh_Software_Dev.pdf";
+import ResumePDF from "../assets/Nitesh_Software_Engineer.pdf";
 
 function LandingPageComponent() {
   return (
