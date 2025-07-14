@@ -39,7 +39,7 @@ const myProject = [
     imageUrl: sparkleboxImg,
   },
 ];
-function ProjectComponent() {
+function Project() {
   const [project, setProject] = React.useState(3);
 
   const showLess = () => {
@@ -94,4 +94,4 @@ function ProjectComponent() {
   );
 }
 
-export const Project = React.memo(ProjectComponent);
+export default Project;

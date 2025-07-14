@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import ResumePDF from "../assets/Nitesh_Software_Engineer.pdf";
 import Loader from "./loader/loader";
 
-function ContactComponent() {
+function Contact() {
   const [resMsg, setResMsg] = useState("");
   const [resMsgClr, setResMsgClr] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -174,4 +174,4 @@ function ContactComponent() {
   );
 }
 
-export const Contact = React.memo(ContactComponent);
+export default Contact;

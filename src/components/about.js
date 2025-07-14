@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 import ProfilePic from "../assets/ProfilePic.JPG";
 
-function AboutComponent() {
+function About() {
   const [content, setContent] = useState("skills");
   const startYear = 2019;
 
@@ -196,4 +196,4 @@ function AboutComponent() {
   );
 }
 
-export const About = React.memo(AboutComponent);
+export default About;

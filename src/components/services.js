@@ -52,7 +52,7 @@ const servicesList = [
       "I design and develop high-quality Android and iOS applications using React Native, a popular and widely adopted JavaScript framework that enables the creation of natively rendering mobile apps. Built on React, it allows me to deliver seamless, responsive, and feature-rich mobile experiences tailored to your needs.",
   },
 ];
-function ServicesComponenet() {
+function Services() {
   const [isModalOpen, setModalOpen] = React.useState(false);
   const [modalData, setModalData] = React.useState({});
 
@@ -108,4 +108,4 @@ function ServicesComponenet() {
   );
 }
 
-export const Services = React.memo(ServicesComponenet);
+export default Services;
