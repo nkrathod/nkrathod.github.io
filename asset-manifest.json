@@ -1,8 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d9a282d.css",
-    "main.js": "/static/js/main.6cc7adcc.js",
+    "main.css": "/static/css/main.c54f0f69.css",
+    "main.js": "/static/js/main.a99cf248.js",
+    "static/js/18.2b00b4b0.chunk.js": "/static/js/18.2b00b4b0.chunk.js",
+    "static/js/393.5e5fd78d.chunk.js": "/static/js/393.5e5fd78d.chunk.js",
+    "static/js/541.b647e930.chunk.js": "/static/js/541.b647e930.chunk.js",
+    "static/css/614.deba2e73.chunk.css": "/static/css/614.deba2e73.chunk.css",
+    "static/js/614.81604b28.chunk.js": "/static/js/614.81604b28.chunk.js",
     "static/js/453.6e114820.chunk.js": "/static/js/453.6e114820.chunk.js",
+    "static/js/974.255ca866.chunk.js": "/static/js/974.255ca866.chunk.js",
     "static/media/nkrMobile.png": "/static/media/nkrMobile.7be6742a3dff4d9d65e6.png",
     "static/media/sitbg1.png": "/static/media/sitbg1.4587e4cf44c3bb4ff321.png",
     "static/media/Nitesh_Software_Engineer.pdf": "/static/media/Nitesh_Software_Engineer.375c167a811572f43d93.pdf",
@@ -13,12 +19,18 @@
     "static/media/icon.png": "/static/media/icon.44da1929d2da3a52b8d9.png",
     "static/media/aol.webp": "/static/media/aol.332e09d51a5267764841.webp",
     "index.html": "/index.html",
-    "main.7d9a282d.css.map": "/static/css/main.7d9a282d.css.map",
-    "main.6cc7adcc.js.map": "/static/js/main.6cc7adcc.js.map",
-    "453.6e114820.chunk.js.map": "/static/js/453.6e114820.chunk.js.map"
+    "main.c54f0f69.css.map": "/static/css/main.c54f0f69.css.map",
+    "main.a99cf248.js.map": "/static/js/main.a99cf248.js.map",
+    "18.2b00b4b0.chunk.js.map": "/static/js/18.2b00b4b0.chunk.js.map",
+    "393.5e5fd78d.chunk.js.map": "/static/js/393.5e5fd78d.chunk.js.map",
+    "541.b647e930.chunk.js.map": "/static/js/541.b647e930.chunk.js.map",
+    "614.deba2e73.chunk.css.map": "/static/css/614.deba2e73.chunk.css.map",
+    "614.81604b28.chunk.js.map": "/static/js/614.81604b28.chunk.js.map",
+    "453.6e114820.chunk.js.map": "/static/js/453.6e114820.chunk.js.map",
+    "974.255ca866.chunk.js.map": "/static/js/974.255ca866.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d9a282d.css",
-    "static/js/main.6cc7adcc.js"
+    "static/css/main.c54f0f69.css",
+    "static/js/main.a99cf248.js"
   ]
 }
