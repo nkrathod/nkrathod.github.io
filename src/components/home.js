@@ -10,7 +10,7 @@ const Contact = React.lazy(() => import("./contact"));
 function HomeComponent() {
   return (
     <div>
-      {/* header */}
+      {/* home page */}
       <div id="header">
         <div className="container">
           {/* <Navbar /> */}

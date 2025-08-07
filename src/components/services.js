@@ -71,11 +71,11 @@ function Services() {
         <title>Nitesh Rathod | Software Developer</title>
         <meta
           name="description"
-          content="Explore my projects in web development, showcasing skills in React, Node.js, and more."
+          content="Explore my services digitiizing your business with web and mobile applications, e-commerce solutions, and portfolio websites."
         />
         <meta
           name="keywords"
-          content="Nitesh Rathod, Services, GitHub, Freelancer, Freelancing, Mobile App, Web Application, Portfolio Website, E-commerce Website"
+          content="Nitesh Rathod, Services, GitHub, React, React Freelancer, Freelancing, Mobile App, Web Application, Portfolio Website, E-commerce Website"
         />
       </Helmet>
       <div className="container">

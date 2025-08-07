@@ -13,7 +13,7 @@ function LandingPageComponent() {
         />
         <meta
           name="keywords"
-          content="Nitesh Rathod, Software Developer, Software Engineer, Web Developer, React, Portfolio, JavaScript"
+          content="Nitesh Rathod, Software Developer, Software Engineer, Web Developer, ReactJS, NodeJS, MERN, Portfolio, JavaScript"
         />
         <meta name="author" content="Nitesh Rathod" />
         <meta name="robots" content="index, follow" />
