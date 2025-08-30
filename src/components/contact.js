@@ -21,8 +21,7 @@ function Contact() {
 
   const handleSubmit = async () => {
     setIsLoading(true)
-    const scriptURL =
-      "https://script.google.com/macros/s/AKfycbzMJxEdpNVXE6OO0SRV1qmZNLglxuCrhiS8HrQ4jJwWXnkpdN4dxDKWJ3trjz94tSrjpA/exec";
+    const scriptURL = process.env.REACT_APP_GOOGLE_FORM_URL;
     const form = document.forms["submit-to-google-sheet"];
 
     await fetch(scriptURL, { method: "POST", body: new FormData(form) })

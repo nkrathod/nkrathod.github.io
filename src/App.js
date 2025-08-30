@@ -8,6 +8,11 @@ import "./App.css";
 
 
 function App() {
+  React.useEffect(() => {
+    const featureFlag = process.env.REACT_APP_FEATURE_FLAG;
+    console.log(typeof(featureFlag), " Feature Flag:", featureFlag);
+  }, []);
+  
   return (
     <Router>
       <div className="container">
