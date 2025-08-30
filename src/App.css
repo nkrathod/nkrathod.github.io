@@ -264,10 +264,25 @@ nav ul li a:hover::after {
   transition: background 0.5s;
   background: #080808;
 }
+.login-btn {
+  display: block;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.5s;
+  background: #080808;
+}
 #show_less {
   display: none;
 }
 .more-btn:hover {
+  background: #ff004f;
+  color: #fff;
+}
+.login-btn:hover {
   background: #ff004f;
   color: #fff;
 }
@@ -417,6 +432,15 @@ nav .fa-solid {
     top: 25px;
     left: 25px;
     cursor: pointer;
+  }
+  .login-btn{
+    background: #fff;
+    color: #ff004f;
+  }
+  .login-btn:hover {
+    background: #fff;
+    color: #ff004f;
+    font-weight: bold;
   }
   .about-col-1,
   .about-col-2 {

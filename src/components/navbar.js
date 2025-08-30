@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 
 function NavbarComponent() {
+  const featureFlag = process.env.REACT_APP_FEATURE_FLAG;
   let sidemenu = document.getElementById("sidemenu");
   const closemenu = () => {
     sidemenu.style.right = "-150px";
@@ -39,6 +40,11 @@ function NavbarComponent() {
         <li>
           <a href="#contact">Contact</a>
         </li>
+        {featureFlag === "true" && (
+          <li>
+            <button className="login-btn">Login</button>
+          </li>
+        )}
         <i className="fa-solid fa-xmark" onClick={() => closemenu()}></i>
       </ul>
       <i className="fa-sharp fa-solid fa-bars" onClick={() => openmenu()}></i>
